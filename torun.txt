@@ -1,0 +1,31 @@
+README Generator AI - How to Run
+================================
+
+1) Go to project directory
+cd "/Users/sairammaruri/Documents/New git projects/readme-generator-ai"
+
+2) Install dependencies
+npm install
+
+3) Configure environment
+cp .env.local.example .env.local
+# Edit .env.local and set OPENAI_API_KEY
+# Optional: OPENAI_MODEL=gpt-4o-mini
+# Optional: GITHUB_TOKEN=<your-token>
+
+4) Build CLI modules (required for terminal usage)
+npm run build:cli
+
+5) Start web app
+npm run dev
+# Open http://localhost:3000
+
+6) Generate README from current directory (terminal)
+node bin/readme-gen.js . --output README.generated.md
+
+7) Generate README from GitHub repo (terminal)
+node bin/readme-gen.js --github https://github.com/owner/repo --output README.generated.md
+
+8) Optional checks
+npm run lint
+npm run build
