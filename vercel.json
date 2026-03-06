@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key",
+    "OPENAI_MODEL": "@openai-model",
+    "GITHUB_TOKEN": "@github-token"
+  }
+}
