@@ -15,9 +15,14 @@
     "lint": "next lint",
     "clean": "rm -rf dist .next"
   },
-  "keywords": ["readme", "generator", "ai", "documentation"],
+  "keywords": [
+    "readme",
+    "generator",
+    "ai",
+    "documentation"
+  ],
   "author": "",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },

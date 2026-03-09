@@ -251,7 +251,7 @@ docker run -p 3000:3000 \
 
 ## License
 
-Licensed under Apache-2.0. See [LICENSE](LICENSE).
+Licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Contributing
 
